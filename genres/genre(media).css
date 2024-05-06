@@ -1,0 +1,132 @@
+@media only screen and (max-width: 768px ) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  /* Header For Tablet */
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 0;
+  }
+  .logoh{
+    display: none;
+  }
+  .nav{
+    display: flex;
+    width: 100%;
+    gap: 123px;
+    border-top: 1px solid rgb(207, 203, 203) ;
+    border-bottom: 1px solid rgb(207, 203, 203) ;
+  }
+    .nav h4{
+      display: none;
+    }
+    .nav i{
+      display: inline;
+    }
+    .button-search{
+      align-items: center;
+    }
+    .button-search img{
+     display: block;
+     margin-right: 180px;
+     padding-bottom: 5px;
+    }
+    .button-search .publish{
+      display: none;
+    }
+    /* Header For Tablet */
+
+  /* main */
+  main nav{
+    width: 100%;
+  }
+  .hide{
+    display: none;
+  }
+  .show{
+    display: inline;
+  }
+
+  
+  /* main */
+
+  }
+
+
+
+  @media only screen and (max-width: 480px ) {
+    header{
+      width: 100%;
+    }
+   .nav{
+    margin: 0;
+    width: 100%;
+    gap:60px;
+   }
+   .button-search img{
+    display: block;
+    padding-bottom: 5px;
+    margin-right: 10px;
+   }
+
+   .sub-nav{
+ justify-content: left;
+ display: flex;
+ gap:10px;
+ padding: 8px 6px;
+ height: 44px;
+ align-self: center;
+ 
+   }
+ 
+.sub-nav .mob{
+  display: flex;
+  width: 330px;
+  padding: 0px 5px;
+  overflow-x: scroll;
+  gap:25px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
+}
+
+.sub-nav::-webkit-scrollbar {
+  display: none;
+}
+ .genre a{
+  margin: 0;
+  font-size: 13px;
+}
+.click a{
+  margin: 0;
+  font-size: 13px;
+}
+
+.dropdown{
+  width: 100px;
+}
+.comics-container{
+  width: 100%;
+  margin: 0;
+  padding: 8px;
+}
+.comic-list{
+  justify-content: left;
+  padding: 3px;
+}
+.comic-list li{
+width: 145px;
+}
+
+
+
+   
+   .media{font-size: medium; gap: 20px;}
+.f_others{gap: 20px;}
+.f_others a{font-size: 15px;}
+  
+  }

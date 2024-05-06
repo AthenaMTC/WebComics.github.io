@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="../publish/style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <nav>
+            <img src="../Images/logo2.0.png" height="70px" width="80px">
+            <ul>
+                <li ><i class="fa-solid fa-bars icons"></i><a href="#">Dashboard</a></li>
+                <li class="ick" ><i class="fa-solid fa-user icons"></i><a href="#">Users</a></li>
+                <li ><i class="fa-solid fa-layer-group icons"></i><a href="#">Series</a></li>
+                <li><i class="fa-solid fa-palette icons"></i><a href="#">Episodes</a></li>
+                <li><i class="fa-solid fa-chart-simple icons"></i><a href="#">Analytics</a></li>
+                <li><i class="fa-solid fa-coins icons"></i><a href="#">Monetization</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <header>
+                <div class="cool">
+                    <i class="fa-solid fa-user icons"></i>
+                    <h2>User</h2>
+                    <form action="#" class="search-bar">
+                        <input type="text" placeholder="Search">
+                        <button type="submit"><i class="fas fa-search fa-lg"></i></button>
+                    </form>
+                </div>
+               
+
+                <div class="cool">
+                    <i class="fa-solid fa-envelope ict"></i>
+                    <i class="fa-solid fa-bell ict"></i>
+                    <div class="admin">
+                        <img src="../Images/canvas/series19.jpg">
+                        <div class="name">
+                            <h4>Athena Casino</h4>
+                            <p>Admin</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+
+            <div class="users">
+               
+                    <div class="user-table">
+
+                        <div class="reader-new">
+                            <div class="reader-creator">
+                                <a href="../admin/user.html" > READER</a>
+                                <a href="../admin/user(creator).html" class="chose"> CREATOR</a>
+                            </div>
+                            <div class="drop-new">
+                                <div class="sort">
+                                    <p>Sort by</p>
+                                    <div class="dropdown">
+                                        <button class="dropbtn" onclick="toggleDropdown('drop')">Date <i class="fa-solid fa-caret-down"></i></button>
+                                        <div class="dropdown-content" id="drop">
+                                            <a onclick="selectOption(this)" href="#">Date</a>
+                                            <a onclick="selectOption(this)" href="#">Name</a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <button> New User</button>
+                            </div>
+                           
+                        </div>
+
+                        <table>
+                        <tr>
+                            <th width="240px;"> ID </th>
+                            <th  width="240px;" > Email Address</th>
+                            <th  width="250px;"> Username </th>
+                            <th width="150px;"> User Role</th>
+                            <th  width="260px;"> Create Date</th>
+                            <th  width="250px;"> Actions </th>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> petergriff@gmail.com</td>
+                            <td> Griffin232</td>
+                            <td> <div class="creator"> Creator </div></td>
+                            <td> March 26, 2015</td>
+                            <td class="buttons">
+                                <button button id="myBtn"><i class="fa-regular fa-eye"></i></button>
+                                  <button onclick="document.getElementById('id09').style.display='block'"><i class="fa-solid fa-pen-to-square"></i></button>  
+                                  <button onclick="document.getElementById('id02').style.display='block'"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+            </main>
+        </div>
+    </div> 
+    <div id="myModal" class="modal">
+        <div class="modal-content" style="padding: 30px;">
+            <span class="close">&times;</span>
+            <div class="dove">
+                <div class="div">
+                    <i class="fa-solid fa-heart"></i>
+                    <div>
+                        <p>Likes</p>
+                        <h1>55,960</h1>
+                    </div>
+                </div>
+                <div class="div">
+                    <i class="fa-solid fa-eye"></i>
+                    <div>
+                        <p>Views</p>
+                        <h1>111,920</h1>
+                    </div>
+                </div>
+                <div class="div">
+                    <i class="fa-solid fa-coins"></i>
+                    <div>
+                        <p>Revenue</p>
+                        <h1>2,098</h1>
+                    </div>
+                </div>
+                <div class="div">
+                    <i class="fa-solid fa-comment"></i>
+                    <div>
+                        <p>Comments</p>
+                        <h1>1,917</h1>
+                    </div>
+                </div>
+                <div class="div">
+                    <i class="fa-solid fa-share"></i>
+                    <div>
+                        <p>Shares</p>
+                        <h1>27,980</h1>
+                    </div>
+                </div>
+                <div class="div">
+                    <i class="fa-solid fa-flag"></i>
+                    <div>
+                        <p>Reports</p>
+                        <h1>3</h1>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div id="id02" class="modal" style="padding-top: 200px;">
+        <form class="modal-content" action="episode.html" style="width: 30%;">
+            <div class="bx">
+                <p>You are about to permanently delete this Account.<br>Are you sure?</p>
+                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="ele">Cancel</button>
+                <button type="submit" onclick="document.getElementById('id02').style.display='none'" class="ele">Delete</button>
+            </div>
+        </form>
+    </div>
+    <div id="id09" class="modal" style="padding-top: 150px;">
+        <div class="modal-content" style="width: 30%;">
+            <div class="bx">
+                <h2>Reason for Reporting</h2><br>
+                <button class="hd" onclick="goFront0()">Copyright Infringement</button><br>
+                <button class="hd" onclick="goFront0()">Abusive or Hateful Content</button><br>
+                <button class="hd" onclick="goFront0()">Mature or Sexual Content</button><br>
+                <button class="hd" onclick="goFront0()">Violent or Graphic Content</button><br>
+                <button class="hd" onclick="goFront0()">Dangerous or Illegal Content</button><br><br>
+                <button type="button" onclick="document.getElementById('id09').style.display='none'" class="ele">Cancel</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        function toggleDropdown(id) {
+        var dropdown = document.getElementById(id);
+        if (dropdown.style.display === 'none') {
+            dropdown.style.display = 'block';
+        } else {
+            dropdown.style.display = 'none';
+        }
+        }
+        function selectOption(option) {
+        var dropdownContent = option.parentElement;
+        var button = dropdownContent.previousElementSibling;
+        var selectedOptionText = option.textContent;
+        button.innerHTML = selectedOptionText + ' <i class="fa-solid fa-caret-down"></i>';
+        toggleDropdown(dropdownContent.id);
+        }
+
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+        var momodal = document.getElementById("mymyModal");
+        var btbtn = document.getElementById("mymyBtn");
+        var span = document.getElementsByClassName("exit")[0];
+        btbtn.onclick = function() {
+        momodal.style.display = "block";
+        }
+        span.onclick = function() {
+        momodal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
